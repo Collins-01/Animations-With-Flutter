@@ -1,3 +1,4 @@
+import 'package:animations_demo/animated_menu.dart';
 import 'package:animations_demo/changing_box_animation.dart';
 import 'package:animations_demo/count_down_animation.dart';
 import 'package:animations_demo/delayed_animations.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: const LikeButton(),
+      home: const AnimatedMenu(),
     );
   }
 }
